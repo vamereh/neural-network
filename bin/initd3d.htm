@@ -1,0 +1,418 @@
+<HTML>
+<HEAD>
+<TITLE>Запуск D3D</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<LINK rel="stylesheet" href="css\style.css" type="text/css">
+<SCRIPT src="script/buttonscript.js" language="JavaScript"></SCRIPT>
+</HEAD>
+<BODY>
+<A name="begin"></A>
+<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+<TR>
+	<TD colspan="2">
+	<!--часть шапка н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD rowspan="2" bgcolor="#3B3B3B">
+        	<P class="mainhead">
+<!--Основной заголовок н-->
+Программирование и внедрение нейросетей
+<!--Основной заголовок к-->
+			</P>
+		</TD>
+		<TD bgcolor="#3B3B3B" align="right" valign="top">
+		<P class="t2">
+<!--в шапке справа вверху н-->
+<A href="search.htm" class="help"><IMG src="image/search_b.gif" width="16" height="16" border="0"> Поиск&nbsp;&nbsp;</A>
+<A href="help.htm" class="help"><IMG src="image/question_b.gif" width="16" height="16" border="0"> Справка&nbsp;&nbsp;</A>
+
+<!--в шапке справа вверху к-->
+		</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD bgcolor="#3B3B3B">
+			<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+			<TR>
+				<TD width="166" height="38"><IMG src="image/1.gif" width="166" height="38" border="0"></TD>
+				<TD width="100%" height="38" background="image/2.gif"><IMG src="image/2.gif" width="1" height="38" border="0"></TD>
+				<TD width="157" height="38"><IMG src="image/3.gif" width="157" height="38" border="0"></TD>
+				<TD bgcolor="#6A6A6A">
+					<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+					<TR>
+						<TD width="100%" height="100%">
+<!--в шапке маленькая надпись с права внизу н-->
+<P class="t1">РГППУ</P>
+<!--в шапке маленькая надпись с права внизу к-->
+						<TD>
+					</TR>
+					<TR><TD width="100%" height="1" bgcolor="#3B3B3B"><IMG src="image/r1.gif" width="1" height="1" border="0"><TD></TR>
+					</TABLE>
+				</TD>
+			</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD colspan="2" bgcolor="#626262"><IMG src="image/r2.gif" width="1" height="16" border="0"></TD>
+	<TR>
+	</TABLE>
+	<!--часть шапка к-->
+	</TD>
+</TR>
+<TR>
+	<TD width="*" height="100%" bgcolor="#DFEDF6">
+	<!--часть навигация н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+
+	<TR>
+		<TD width="181" height="30"><IMG src="image/r3.gif" width="1" height="30" border="0"></TD>
+		<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+	</TR>
+<!--кнопки н-->
+<!--
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Начало</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+-->
+
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="start.htm"><NOBR>Начало</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="create_proj.htm"><NOBR>Создание окна</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="cr_neronet.htm"><NOBR>Создание нейросети</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Запуск Direct3D</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="crdelmod.htm"><NOBR>Визуализация</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="anim.htm">Анимация</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="kamera.htm">Камера</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="bma.htm">ВМА-файл</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="frommaxtox.htm">Экспорт модели</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="impl_neronet.htm">Внедрение нейросети</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle">
+	<P class="button_on">&nbsp;</P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="use_books.htm">Литература</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="ip.htm">Интерфейс пособия</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="metodukaz.htm">Методические указания</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="search.htm">Поиск по пособию</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+
+<!--кнопки к-->
+	<TR>
+		<TD width="181" height="100%"><IMG src="image/r3.gif" width="1" height="1" border="0"></TD>
+		<TD width="1" height="100%"  bgcolor="#DFEDF6" valign="top"><IMG src="image/9.gif" width="1" height="161" border="0"></TD>
+	</TR>
+	<TR>
+		<TD width="182" height="1"><IMG src="image/r3.gif" width="182" height="1" border="0"></TD>
+	</TR>
+	</TABLE>
+	<!--часть навигация к-->
+	</TD>
+	<TD width="100%" height="100%">
+	<!--часть содержания н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD align="justify" valign="top">
+<!--содержание н-->
+
+<TABLE cellspacing="5" cellpadding="0" border="0" width="*" height="*" align="center" style="margin-top:10px;">
+<TR>
+	<TD><A href="initd3d.htm" class="wt">Запуск DirectX</A></TD>
+	<TD><A href="com.htm" class="wt">COM-модель</A></TD>
+	<TD><A href="hresult.htm" class="wt">HRESULT</A></TD>
+</TR>
+</TABLE>
+
+<DIV class="layer_window">
+<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+<TR>
+	<TD width="5" height="23"><IMG src="image/5.gif" width="5" height="23" border="0"></TD>
+	<TD width="*" height="23" background="image/4.gif">
+		<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+		<TR>
+			<TD width="100%" height="23" align="justify" valign="middle" >
+<P class="head_window">Запуск D3D</P>
+			</TD>
+			<TD width="63" height="23"><IMG src="image/mini_b.gif" width="63" height="23" border="0"></TD>
+		</TR>
+		</TABLE>
+	</TD>
+	<TD width="5" height="23"><IMG src="image/6.gif" width="5" height="23" border="0"></TD>
+<TR>
+<TR>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/7.gif" width="5" height="44" border="0"></TD>
+	<TD height="100%" align="justify" valign="top">
+<!--текст окошка н-->
+
+
+
+<P class="title">Лабораторная работа №3</P>
+<P class="title3">ЗАПУСК (ИНИЦИАЛИЗАЦИЯ) DIRECTX</P> 
+<P class="title2">В этой лабораторной работе вы научитесь:</P>
+<P class="text">
+1. Создавать и удалять главный объект и объект видеокарты.
+<BR>2. Отслеживать успешность или не успешность создания главного объекта и объекта видеокарты.
+</P>
+
+<P class="title2">1. Создание главного объекта и объекта видеокарты</P>
+<P class="text">DirectX - это набор драйверов, образующих интерфейс между программами в среде Windows 
+и аппаратными средствами. DirectX реализован в соответствии со спецификацией 
+<A href="com.htm" class="wt">COM</A>. 
+При использовании DirectX, 
+программист не работает напрямую с аппаратным обеспечением. Он создает 
+виртуальное представление нужного устройства (видеокарта, джойстик, 
+мышь, клавиатура, звуковая карта и т.п.) и уже оперирует именно с его виртуальной копией, изменения которой 
+проецируется DirectX-ом на реальное устройство.<BR>
+В основном программирование с использованием низкоуровневых интерфейсов (API) DirectX сводиться к созданию и изменению свойств
+различных объектов, находящихся в определенной взаимосвязи между собой. Получается некая иерархия.
+На вершине её располагается главный объект. Это что-то похожее на метообъект, т.е. родитель для всех объектов
+(или просто объект всем объектам). Сам по себе главный объект умеет мало что... Главное, что на его основе
+можно создавать потомков, которые будут интересны и вам. Одним из таких объектов является объект видеокарты.<BR>
+В этой главе данного электронного пособия вы будете учиться создавать именно два этих объекта: главный объект 
+и объект видеоадаптера.</P>
+
+<P class="text2">
+<B>Задание 1</B><BR>
+Вот так объекты, о которых писалось выше, выглядят на языке С++: 
+<P class="kod">
+LPDIRECT3D9&nbsp;&nbsp;&nbsp;&nbsp;D3D = NULL;//главный объект<BR>   
+LPDIRECT3DDEVICE9&nbsp;&nbsp;&nbsp;&nbsp;D3DDevice = NULL;//объект видеокарты
+<P class="text2">
+Запишите выше написанный код в своем проекте в файле D3DApplication.cpp сразу после подключения заголовков MRCD9.H.<BR>
+Замете, что типы LPDIRECT3D9 и LPDIRECT3DDEVICE9 создают не просто переменные, а указатели типов IDirect3D9 
+и IDirect3DDevice9 соответственно.
+
+<P class="text">
+Функция InitD3D поможет вам создать оба выше озвученных объекта и выведет лог-файл о своей работе.
+Вот прототип этой функции:
+</P>
+<P class="kod">
+HRESULT InitD3D<BR> 
+( <BR>
+IDirect3D9 **ppD3D, //главный объект <BR>
+IDirect3DDevice9 **ppD3DDevice, //объект видеокарты<BR> 
+HWND hWnd, //дескриптор окна<BR>
+bool window, //TRUE - оконный режим, FALSE - полноэкранный режим<BR> 
+unsigned short int Width, //разрешение экрана по горизонтали<BR> 
+unsigned short int Height //разрешение экрана по вертикали<BR>
+);
+<P class="text">
+Если реализовать данную функцию, то результатом её работы будет сообщение об успешности 
+ли не успешности создания нужных вам объектов, а так же созданные "гл. объект" и "объект видеокарты". 
+Если говорить конкретнее об информации о ходе выполнения функции, то она вернет одно 
+значение из перечисляемого типа 
+<A href="hresult.htm" class="wt">HRESULT</A>
+. Значений этих очень много. Для облегчения работы с ними
+вам предлагается функция SUCCEEDED(), которая при завершении своей работы возвращает TRUE - успех,
+FALSE - неудача, опираясь на переданный параметр типа HRESULT.<BR>
+Вот её прототип:
+<P class="kod">
+bool SUCCEEDED (HRESULT hRet);
+</P>
+<P class="text">
+С помощью данной функции можно проверить успешность инициализации и соответственно ответить на вопрос:
+"А стоит ли продолжать выполнять приложение дальше". Отсюда можно представить как это будет выглядеть 
+на языке С++:
+<P class="kod">
+if( SUCCEEDED( InitD3D ( &D3D, &D3DDevice, hwnd, TRUE, 800, 600 ) ) )<BR>
+{<BR>
+&nbsp;&nbsp;//если успех, то выполняете цикл обработки сообщений<BR>
+};
+</P>
+<P class="text">
+В результате вы проверите успешность или не успешность инициализации и получите на указатели D3D и D3DDevice
+нужные объекты. 
+
+<P class="text2">
+<B>Задание 2</B><BR>
+Запишите выше предложенный код в своем проекте так, чтобы цикл обработки сообщений попал 
+в операторные скобки этого условия. У вас должно получиться так:
+<P class="kod">
+int WINAPI WinMain(	HINSTANCE hinstance,
+					HINSTANCE hprevinstance,
+					LPSTR lpcmdline,
+					int ncmdshow)<BR>
+{<BR>
+MSG        msg;<BR>
+HWND hwnd = InitMainForm(hinstance, MainWinProc, "D3D", 800, 600);<BR>
+<BR>
+ShowWindow( hwnd, SW_SHOWDEFAULT );<BR>
+UpdateWindow( hwnd );<BR>
+ZeroMemory( &msg, sizeof(msg));<BR>
+<FONT color="red">if( SUCCEEDED( InitD3D ( &D3D, &D3DDevice, hwnd, TRUE, 800, 600 ) ) )</FONT><BR>
+<FONT color="red">{</FONT><BR>
+&nbsp;&nbsp;while( msg.message!=WM_QUIT)<BR> 
+&nbsp;&nbsp;{<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if(PeekMessage( &msg, NULL,0,0,PM_REMOVE ))<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TranslateMessage( &msg );<BR>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DispatchMessage( &msg );<BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;}<BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;else<BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;{};<BR>
+&nbsp;&nbsp;};<BR> 
+<FONT color="red">};</FONT><BR> 
+return 0;<BR>
+}
+</P>
+
+<P class="title2">2. Удаление главного объекта и объекта видеокарты</P>
+<P class="text">
+После завершения работы с созданными объектами вам необходимо их удалить из системы!
+Не забывайте об этом!<BR>
+
+<P class="text2">
+<B>Задание 3</B><BR>
+Для этого создайте новую функцию, которая будет удалять все, что необходимо, перед завершением работы
+приложения. Сначала она будет состоять из 4 строчек, но по мере продвижения вперед вы будете её заполнять 
+все больше.<BR>
+Гл. объект и объект видеоадаптера освобождаются по средствам метода Release() гл. объекта.
+Запишите предложенный ниже код в свою программу:
+
+<P class="kod">
+void DeleteObject()<BR>
+{<BR>	
+&nbsp;&nbsp;if( D3DDevice != NULL) //если объект создан<BR> 
+&nbsp;&nbsp;&nbsp;D3DDevice->Release(); //то удаляете<BR>
+&nbsp;&nbsp;if( D3D != NULL)<BR>
+&nbsp;&nbsp;&nbsp;D3D->Release();<BR>
+}<BR>
+</P>
+
+<P class="text2">
+<B>Задание 4</B><BR>
+Теперь, когда функция удаления объектов создана нужно поместить её в код функции MainWinProc():
+</P>
+
+<P class="kod">
+case WM_DESTROY: //когда пришло сообщение об удалении<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;<FONT color="red">DeleteObject();</FONT> //сначала удаляете объекты созданные в процессе выполнения приложения<BR>
+&nbsp;&nbsp;&nbsp;PostQuitMessage(0); //затем посылаете ОС сообщение о желании закрыть приложение<BR>
+&nbsp;&nbsp;&nbsp;return(0); //выходите из функции<BR>
+}
+</P>
+
+<P class="text2">
+<B>Задание 5</B><BR>
+Откомпилируйте и проверте исполняемый файл. Ошибок быть не должно. Иначе можете скопировать данный проект 
+<A href="files\initdx9.zip" class="wt">здесь</A> и найти свою ошибку.
+
+<P class="text">
+Хотя результатов никаких вы не увидите, т.к. вы ничего не отображали в окне приложения. Но в директории, где 
+расположен исполняемый файл, появиться файл log_InitDX9.txt, который сообщает о ходе выполнения функции InitD3D.<BR>
+Если вы изучили все предыдущие темы, то можете смело переходить на главу "Визуализация". 
+</P>
+
+<P class="title2">Вопросы для  самоконтроля</P>
+<P class="text">
+1)	Что из себя представляет DireсtX?
+<BR>2)	Как расшифровывается абривиатура COM?
+<BR>3)	Какой тип должен иметь главный объект?
+<BR>4)	Какой тип должен имеет объект видеокарты (объект устройства воспроизведения)?
+<BR>5)	Какая функция из классов MRCD9 поможет нам создать главный объект и объект видеокарты?
+<BR>6)	Какие данные возвращает функция InitD3D и зачем они нужны?
+<BR>7)	Если главный объект и объект видеокарты были созданы, то нужно ли их удалять по завершению работы приложения?
+<BR>8)	Какая функция поможет вам обработать данные типа HRESULT? 
+</P>
+
+
+
+<!--текст окошка к-->
+	<P align="right"><A href="#begin" class="wt">наверх</A></P><BR>
+	</TD>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/8.gif" width="5" height="44" border="0"></TD>
+</TR>
+<TR>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+	<TD width="*" height="1" bgcolor="#CFDDF2"><IMG src="image/r6.gif" width="1" height="1" border="0"></TD>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+</TR>
+</TABLE>
+</DIV>
+<P class="mini">MR, Кузнецов Алексей КТ-503, РГППУ, 2007г.</P>
+<!--содержание к-->
+		</TD>
+	</TR>
+	</TABLE>
+	<!--часть содержания к-->
+	</TD>
+</TR>
+<TR>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

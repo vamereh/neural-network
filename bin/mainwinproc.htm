@@ -1,0 +1,354 @@
+<HTML>
+<HEAD>
+<TITLE>Создание обработчика событий</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<LINK rel="stylesheet" href="css\style.css" type="text/css">
+<SCRIPT src="script/buttonscript.js" language="JavaScript"></SCRIPT>
+</HEAD>
+<BODY>
+<A name="begin"></A>
+<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+<TR>
+	<TD colspan="2">
+	<!--часть шапка н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD rowspan="2" bgcolor="#3B3B3B">
+        	<P class="mainhead">
+<!--Основной заголовок н-->
+Программирование и внедрение нейросетей
+<!--Основной заголовок к-->
+			</P>
+		</TD>
+		<TD bgcolor="#3B3B3B" align="right" valign="top">
+		<P class="t2">
+<!--в шапке справа вверху н-->
+<A href="search.htm" class="help"><IMG src="image/search_b.gif" width="16" height="16" border="0"> Поиск&nbsp;&nbsp;</A>
+<A href="help.htm" class="help"><IMG src="image/question_b.gif" width="16" height="16" border="0"> Справка&nbsp;&nbsp;</A>
+
+<!--в шапке справа вверху к-->
+		</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD bgcolor="#3B3B3B">
+			<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+			<TR>
+				<TD width="166" height="38"><IMG src="image/1.gif" width="166" height="38" border="0"></TD>
+				<TD width="100%" height="38" background="image/2.gif"><IMG src="image/2.gif" width="1" height="38" border="0"></TD>
+				<TD width="157" height="38"><IMG src="image/3.gif" width="157" height="38" border="0"></TD>
+				<TD bgcolor="#6A6A6A">
+					<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+					<TR>
+						<TD width="100%" height="100%">
+<!--в шапке маленькая надпись с права внизу н-->
+<P class="t1">РГППУ</P>
+<!--в шапке маленькая надпись с права внизу к-->
+						<TD>
+					</TR>
+					<TR><TD width="100%" height="1" bgcolor="#3B3B3B"><IMG src="image/r1.gif" width="1" height="1" border="0"><TD></TR>
+					</TABLE>
+				</TD>
+			</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD colspan="2" bgcolor="#626262"><IMG src="image/r2.gif" width="1" height="16" border="0"></TD>
+	<TR>
+	</TABLE>
+	<!--часть шапка к-->
+	</TD>
+</TR>
+<TR>
+	<TD width="*" height="100%" bgcolor="#DFEDF6">
+	<!--часть навигация н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+
+	<TR>
+		<TD width="181" height="30"><IMG src="image/r3.gif" width="1" height="30" border="0"></TD>
+		<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+	</TR>
+<!--кнопки н-->
+<!--
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Начало</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+-->
+
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="start.htm"><NOBR>Начало</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Создание окна</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="cr_neronet.htm"><NOBR>Создание нейросети</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="initd3d.htm"><NOBR>Запуск Direct3D</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="crdelmod.htm"><NOBR>Визуализация</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="anim.htm">Анимация</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="kamera.htm">Камера</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="bma.htm">ВМА-файл</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="frommaxtox.htm">Экспорт модели</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="impl_neronet.htm">Внедрение нейросети</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle">
+	<P class="button_on">&nbsp;</P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="use_books.htm">Литература</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="ip.htm">Интерфейс пособия</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="metodukaz.htm">Методические указания</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="search.htm">Поиск по пособию</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+
+<!--кнопки к-->
+	<TR>
+		<TD width="181" height="100%"><IMG src="image/r3.gif" width="1" height="1" border="0"></TD>
+		<TD width="1" height="100%"  bgcolor="#DFEDF6" valign="top"><IMG src="image/9.gif" width="1" height="161" border="0"></TD>
+	</TR>
+	<TR>
+		<TD width="182" height="1"><IMG src="image/r3.gif" width="182" height="1" border="0"></TD>
+	</TR>
+	</TABLE>
+	<!--часть навигация к-->
+	</TD>
+	<TD width="100%" height="100%">
+	<!--часть содержания н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD align="justify" valign="top">
+<!--содержание н-->
+
+<TABLE cellspacing="5" cellpadding="0" border="0" width="*" height="*" align="center" style="margin-top:10px;">
+	<TR>
+		<TD><A href="create_proj.htm" class="wt">Создание проекта</A></TD>
+		<TD><A href="mainwin.htm" class="wt">MainWin и регистрация окна</A></TD>
+		<TD><A href="mainwinproc.htm" class="wt">Создание обработчика событий</A></TD>
+	</TR>
+</TABLE>
+
+<DIV class="layer_window">
+<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+<TR>
+	<TD width="5" height="23"><IMG src="image/5.gif" width="5" height="23" border="0"></TD>
+	<TD width="*" height="23" background="image/4.gif">
+		<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+		<TR>
+			<TD width="100%" height="23" align="justify" valign="middle" >
+<P class="head_window">Создание окна</P>
+			</TD>
+			<TD width="63" height="23"><IMG src="image/mini_b.gif" width="63" height="23" border="0"></TD>
+		</TR>
+		</TABLE>
+	</TD>
+	<TD width="5" height="23"><IMG src="image/6.gif" width="5" height="23" border="0"></TD>
+<TR>
+<TR>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/7.gif" width="5" height="44" border="0"></TD>
+	<TD height="100%" align="justify" valign="top">
+<!--текст окошка н-->
+
+
+<P class="title2">3. Создание обработчика событий</P>
+<P class="text">Обработчик сообщений (событий) – это цикл, в котором расположена функция MainWinProc(), занимающаяся непосредственной 
+обработкой сообщений. 
+
+<P class="text2">
+<B>Задание 11</B><BR>
+Запишите после регистрации окна (внутри операторных скобок функции WinMain()) следующее:
+<P class="kod">
+MSG msg;&nbsp;&nbsp;//переменная хранящая сообщения окна<BR>
+ShowWindow( hwnd, SW_SHOWDEFAULT );&nbsp;&nbsp;//нарисуем окно<BR>
+UpdateWindow( hwnd );&nbsp;&nbsp;//обновим окно<BR>
+ZeroMemory( &msg, sizeof(msg));<BR>
+<FONT color="red">while( msg.message!=WM_QUIT)</FONT>&nbsp;&nbsp;//если пришедшее сообщение не выход, то выполняем итерацию<BR> 
+<FONT color="red">{</FONT><BR>
+	&nbsp;&nbsp;if(PeekMessage( &msg, NULL,0,0,PM_REMOVE ))&nbsp;&nbsp;//если есть сообщение, то обрабатываем его, а после удаляем из очереди<BR>
+	&nbsp;&nbsp;{<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;TranslateMessage( &msg );&nbsp;&nbsp;//преобразование сообщения связанных с клавишами<BR>
+        &nbsp;&nbsp;&nbsp;&nbsp;DispatchMessage( &msg );&nbsp;&nbsp;//пересылка сообщений в MainWinProc<BR>
+    &nbsp;&nbsp;}<BR>
+    &nbsp;&nbsp;else&nbsp;&nbsp;//если нет сообщения, то пока ничего не делаем <BR>
+    &nbsp;&nbsp;{};<BR>
+<FONT color="red">} </FONT>
+</P>
+
+<P class="text">Функция MainWinProc() занимается непосредственной обработкой сообщений. Те 
+сообщения, которые она не обработает, будет обрабатывать ОС.<BR>
+Вот прототип этой функции:
+<P class="kod">
+LRESULT CALLBACK MainWinProc<BR>(<BR>
+							HWND   hwnd,&nbsp;&nbsp;//дискриптор окна<BR>            
+					        UINT    msg,&nbsp;&nbsp;//сообщение windows<BR>              
+                            WPARAM  wparam,&nbsp;&nbsp;//дополнительные параметры<BR>           
+                            LPARAM  lparam&nbsp;&nbsp;//дополнительные параметры<BR>)
+</P>
+
+<P class="text2">
+<B>Задание 12</B><BR>
+Запишите пустую функцию MainWinProc выше функции WinMain():</P>
+<P class="kod">
+LRESULT CALLBACK MainWinProc<BR>(<BR>
+							HWND   hwnd,&nbsp;&nbsp;//дискриптор окна<BR>            
+					        UINT    msg,&nbsp;&nbsp;//сообщение windows<BR>              
+                            WPARAM  wparam,&nbsp;&nbsp;//дополнительные параметры<BR>           
+                            LPARAM  lparam&nbsp;&nbsp;//дополнительные параметры<BR>)<BR>
+                            {<BR>
+                            }
+</P>
+
+<P class="text2">
+<B>Задание 13</B><BR>
+Внутри финуции (в операторных скобках) MainWinProc() напишите вот такой код:</P>
+<P class="kod">
+switch(msg)<BR>
+{<BR>		
+&nbsp;&nbsp;case WM_DESTROY:&nbsp;&nbsp;//если пришло сообщение закрытия окна, то<BR> 
+&nbsp;&nbsp;{<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;PostQuitMessage(0);&nbsp;&nbsp;//закрываем его<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return(0);&nbsp;&nbsp;//заканчиваем выполнение функции MainWinProc()<BR> 
+&nbsp;&nbsp;}<BR> 
+}<BR>
+</P>
+<P class="text">Но вы, конечно, не будете перечислять все возможные сообщения, которые могут "прилететь". 
+Поэтому воспользуйтесь функцией DefWindowProc. Эта функция заставит ОС обработать сообщение окна по умолчанию.
+
+<P class="text2">
+<B>Задание 14</B><BR>
+Запишите предложенный ниже код после оператора switch в функции MainWinProc():
+<P class="kod">
+return DefWindowProc(hwnd, msg, wparam, lparam);
+</P>
+
+<P class="text">
+Вот и все. Возможно вам это показалось немного запутанным. Не бойтесь! Со временем придет и понимание.
+
+<P class="text2">
+<B>Задание 15</B><BR>
+Для того, чтобы посмотреть результаты вашей работы нажмите F7 или кнопку Build на панели инструментов. 
+После найдите в папке, где располагается ваш проект, папку Debug, а там исполняемый файл. Запустите его. 
+У вас должно открыться пустое окно.
+
+<P class="text2">
+<B>Задание 16</B><BR>
+Если ваш собственный проект окна не работает, то скопируйте готовый 
+<A href="files\window.zip" class="wt">здесь</A>.
+И постарайтесь найти свою ошибку.
+
+<P class="text">
+Для более глубокого понимания данной темы почитайте литературу по API-программированию под Windows.</P>
+
+<P class="title2">Вопросы для  самоконтроля</P>
+<P class="text">
+    1)	Что нужно создать в среде Visual C++ 6.0 (далее VC6) для начала работы?
+<BR>2)	Какую последовательность действий нужно сделать, чтобы создать пустое окно в среде VC6?
+<BR>3)	Для чего нужна функция InitMainForm?
+<BR>4)	Что возвратит функция InitMainForm и зачем эти данные нужны?
+<BR>5)	В какой функции находится цикл обработки сообщений?
+<BR>6)	Что из себя представляет цикл обработки сообщений?
+<BR>7)	Как по вашему мнению, когда цикл обработки сообщений должен прекратить свою работу?
+<BR>8)	В какой функции непосредственно происходит обработка сообщений?
+<BR>9)	Что означает сообщение WM_DESTROY?
+<BR>10)	Кто или что посылает сообщения, созданному вами окну?
+</P> 
+
+<P align="center">
+<A href="mainwin.htm" class="wt">назад</A>
+</P>
+
+
+
+<!--текст окошка к-->
+	<P align="right"><A href="#begin" class="wt">наверх</A></P><BR>
+	</TD>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/8.gif" width="5" height="44" border="0"></TD>
+</TR>
+<TR>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+	<TD width="*" height="1" bgcolor="#CFDDF2"><IMG src="image/r6.gif" width="1" height="1" border="0"></TD>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+</TR>
+</TABLE>
+</DIV>
+<P class="mini">MR, Кузнецов Алексей КТ-503, РГППУ, 2007г.</P>
+<!--содержание к-->
+		</TD>
+	</TR>
+	</TABLE>
+	<!--часть содержания к-->
+	</TD>
+</TR>
+<TR>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

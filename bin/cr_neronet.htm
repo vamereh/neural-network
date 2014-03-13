@@ -1,0 +1,437 @@
+<HTML>
+<HEAD>
+<TITLE>Создание объекта нейросети</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<LINK rel="stylesheet" href="css\style.css" type="text/css">
+<SCRIPT src="script/buttonscript.js" language="JavaScript"></SCRIPT>
+</HEAD>
+<BODY>
+<A name="begin"></A>
+<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+<TR>
+	<TD colspan="2">
+	<!--часть шапка н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD rowspan="2" bgcolor="#3B3B3B">
+        	<P class="mainhead">
+<!--Основной заголовок н-->
+Программирование и внедрение нейросетей
+<!--Основной заголовок к-->
+			</P>
+		</TD>
+		<TD bgcolor="#3B3B3B" align="right" valign="top">
+		<P class="t2">
+<!--в шапке справа вверху н-->
+<A href="search.htm" class="help"><IMG src="image/search_b.gif" width="16" height="16" border="0"> Поиск&nbsp;&nbsp;</A>
+<A href="help.htm" class="help"><IMG src="image/question_b.gif" width="16" height="16" border="0"> Справка&nbsp;&nbsp;</A>
+
+<!--в шапке справа вверху к-->
+		</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD bgcolor="#3B3B3B">
+			<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+			<TR>
+				<TD width="166" height="38"><IMG src="image/1.gif" width="166" height="38" border="0"></TD>
+				<TD width="100%" height="38" background="image/2.gif"><IMG src="image/2.gif" width="1" height="38" border="0"></TD>
+				<TD width="157" height="38"><IMG src="image/3.gif" width="157" height="38" border="0"></TD>
+				<TD bgcolor="#6A6A6A">
+					<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+					<TR>
+						<TD width="100%" height="100%">
+<!--в шапке маленькая надпись с права внизу н-->
+<P class="t1">РГППУ</P>
+<!--в шапке маленькая надпись с права внизу к-->
+						<TD>
+					</TR>
+					<TR><TD width="100%" height="1" bgcolor="#3B3B3B"><IMG src="image/r1.gif" width="1" height="1" border="0"><TD></TR>
+					</TABLE>
+				</TD>
+			</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD colspan="2" bgcolor="#626262"><IMG src="image/r2.gif" width="1" height="16" border="0"></TD>
+	<TR>
+	</TABLE>
+	<!--часть шапка к-->
+	</TD>
+</TR>
+<TR>
+	<TD width="*" height="100%" bgcolor="#DFEDF6">
+	<!--часть навигация н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+
+	<TR>
+		<TD width="181" height="30"><IMG src="image/r3.gif" width="1" height="30" border="0"></TD>
+		<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+	</TR>
+<!--кнопки н-->
+<!--
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Начало</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+-->
+
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="start.htm"><NOBR>Начало</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="create_proj.htm"><NOBR>Создание окна</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Создание нейросети</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="initd3d.htm"><NOBR>Запуск Direct3D</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="crdelmod.htm"><NOBR>Визуализация</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="anim.htm">Анимация</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="kamera.htm">Камера</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="bma.htm">ВМА-файл</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="frommaxtox.htm">Экспорт модели</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="impl_neronet.htm">Внедрение нейросети</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle">
+	<P class="button_on">&nbsp;</P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="use_books.htm">Литература</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="ip.htm">Интерфейс пособия</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="metodukaz.htm">Методические указания</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="search.htm">Поиск по пособию</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+
+<!--кнопки к-->
+	<TR>
+		<TD width="181" height="100%"><IMG src="image/r3.gif" width="1" height="1" border="0"></TD>
+		<TD width="1" height="100%"  bgcolor="#DFEDF6" valign="top"><IMG src="image/9.gif" width="1" height="161" border="0"></TD>
+	</TR>
+	<TR>
+		<TD width="182" height="1"><IMG src="image/r3.gif" width="182" height="1" border="0"></TD>
+	</TR>
+	</TABLE>
+	<!--часть навигация к-->
+	</TD>
+	<TD width="100%" height="100%">
+	<!--часть содержания н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD align="justify" valign="top">
+<!--содержание н-->
+
+
+<TABLE cellspacing="5" cellpadding="0" border="0" width="*" height="*" align="center" style="margin-top:10px;">
+	<TR>
+		<TD><A href="cr_neronet.htm" class="wt">Создание объекта нейросети</A></TD>
+		<TD><A href="tr_neronet.htm" class="wt">Обучение нейросети</A></TD>
+		<TD><A href="te_neronet.htm" class="wt">Тестирование нейросети</A></TD>	
+	</TR>
+</TABLE>
+
+
+
+<DIV class="layer_window">
+<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+<TR>
+	<TD width="5" height="23"><IMG src="image/5.gif" width="5" height="23" border="0"></TD>
+	<TD width="*" height="23" background="image/4.gif">
+		<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+		<TR>
+			<TD width="100%" height="23" align="justify" valign="middle" >
+<P class="head_window">Создание нейросети</P>
+			</TD>
+			<TD width="63" height="23"><IMG src="image/mini_b.gif" width="63" height="23" border="0"></TD>
+		</TR>
+		</TABLE>
+	</TD>
+	<TD width="5" height="23"><IMG src="image/6.gif" width="5" height="23" border="0"></TD>
+<TR>
+<TR>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/7.gif" width="5" height="44" border="0"></TD>
+	<TD height="100%" align="justify" valign="top">
+<!--текст окошка н-->
+
+<P class="title">Лабораторная работа №2</P>
+<P class="title3">СОЗДАНИЕ, ОБУЧЕНИЕ И ТЕСТИРОВАНИЕ НЕЙРОСЕТЕЙ</P> 
+<P class="title2">В этой лабораторной работе вы научитесь:</P>
+<P class="text">
+1. Создавать нейросети с использованием класса NERO_NET.
+<BR>2. Обучать созданную нейросеть методами класса  NERO_NET.
+<BR>3. Проводить тестирование нейросети на качество обученности.
+<BR>4. Изменять параметры нейросети.
+
+</P>
+
+<P class="title2">1. Создание объекта нейросети</P>
+<P class="text">
+Попытки моделирования работы мозга с помощью построения моделей нейронных сетей (нейрокибернетика) 
+восходят ко времени появления первых ЭВМ и не были напрямую связаны с их появлением. Первые модели 
+нейроподобных сетей были физическими и основывались на электронных моделях нейронов. Начало этому 
+моделированию положила идея формального нейрона Мак-Каллока и Питтса (1943 г.), которая была воспринята 
+Розенблаттом и развита им в рамках построенных им и его учениками многочисленных моделейперцептронов 
+(систем для распознавания образов) - одного из классов современных нейронных сетей. По существу, 
+Розенблатта можно считать отцом нейрокибернетики или нейрокибернетического направления в Искусственном 
+Интеллекте.
+ 
+<P class="text">
+Учебный нейрон (т.е. такой нейрон, который используется в данных лабораторных работах) состоит из 
+активации (U), смещения (S) активации, веса смещения (Ws) активации и из одной или нескольких связей, 
+характеризующихся весом связи (W).
+<CENTER><IMG src="image\examp\19.jpg" width="182" height="182" border="0" class="bo"></CENTER>
+<CENTER><P class="ris">Рис. 1</P></CENTER>
+
+<P class="text"> 
+Активация (U)  рассчитывается в соответствии с формулой:
+
+<P class="text"> 
+<IMG src="image\examp\21.jpg" width="233" height="159" border="0">
+
+<P class="text">
+i – номер нейрона в котором рассчитывается активация;
+<BR>n – номер нейрона имеющего связь с рассчитываемым нейроном i.
+
+<P class="text">
+Из связанных определенным образом нейронов (узлов) строится нейронная сеть с определенным количеством 
+входов и выходов. Обычно различают три типа узлов (нейронов): 
+<BR>1) входные (входной слой нейронов или Input layer), 
+<BR>2) выходные (выходной слой или Output layer),
+<BR>3) скрытые слои нейронов (Hidden layers) или внутренние.
+<CENTER><IMG src="image\examp\20.jpg" width="332" height="442" border="0" class="bo"></CENTER>
+<CENTER><P class="ris">Рис. 2</P></CENTER>
+
+<P class="text">
+И так, нейронная сеть - это система нейронов и связей между ними. Каждый 
+нейрон обладает следующими характеристиками: U - активация нейрона, W - вес связи между нейронами, 
+S - смещение активации нейрона, Ws - "смещение" для смещения активации нейрона.<BR>
+О том, как работает такая нейронная, сеть будет написано чуть позже, а сейчас обратите внимание 
+на то, как создать, используя язык С++, структуру описанную выше (Рис. 2).  
+
+<P class="text2">
+<B>Задание 1</B><BR>
+Откройте 
+<A href="files\window.zip" class="wt">проект</A>
+, созданный вами на предыдущей лабораторной работе, в котором вы создавали пустое окно.
+
+<P class="text2">
+<B>Задание 2</B><BR>
+Загрузите и разархивируйте 
+<A href="files\CNero_Net.zip" class="wt">архив</A>,
+содержащий класс для работы с нейросетью. 
+
+<P class="text2">
+<B>Задание 3</B><BR>
+Интегрируйте класс в свой проект. Для этого:
+<BR>1) После того, как вы загрузите и разархивируете архив, содержащий класс для работы с нейросетью, 
+добавте его в ваш проект, подобно тому, как  вы это делали в первой лабораторной работе с 
+классами MRCD9 (через пункт меню Project -> Add To Project -> Files...). 
+<BR>2) И завершающий этап подключения - подключение класса в коде самого проекта, для того чтобы компилятор знал 
+откуда брать информацию о классе CNero_Net:
+<P class="kod">
+#include "CNero_net.h"
+
+<P class="text2">
+<B>Задание 4</B><BR>
+Создайте функцию NeroNet(), в которой и будете работать с нейросетью. Для этого сразу после подключения классов, 
+помогающих работать с нейросетью, запишите следующее:
+
+<P class="kod">
+void NeroNet()<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;//тут будет код работы с нейросетью<BR>
+}
+
+<P class="text">
+Для создания нейросети вы должны создать объект класса NERO_NET (класс для работы с нейросетью). В процессе создания 
+класса будет использован конструктор. Вот его прототип:
+
+<P class="kod">
+NERO_NET <BR>
+(<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned short int in_n,<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned short int out_n,<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned short int internal_c,<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned short int internal_r<BR>
+);
+
+<P class="text">
+Рассмотрите прототип конструктора (с параметрами) класса CNero_Net:
+<BR> in_n - Количество нейронов входного слоя,
+<BR> out_n - Количество нейронов выходного слоя,
+<BR> internal_c, internal_r - количество нейронов во внутреннем (скрытом) слое по вертикали и горизонтали 
+соответсвенно.
+
+<P class="text2">
+<B>Задание 5</B><BR>
+Используя конструктор, описанный выше, создайте объект класса CNero_Net, где входных неронов 2, выходных 3, 
+а внутренних 4 ( два ряда и в каждом ряду по 2 нерона) так, как это показано ниже. Данный код должен 
+размещаться между операторных скобок функции NeroNet().
+<P class="kod">
+//создание нейросети (кол входных неронов, выходных, внутренних (число столбцов и строк))<BR>
+NERO_NET* net = new NERO_NET(2,3,2,2);
+
+<P class="text">
+И так сеть создана. Сейчас оцените то, что же у вас получилось?
+
+<P class="text2">
+<B>Задание 6</B><BR>
+Для этого воспользуйтесь методом toLog класса NERO_NET, единственный параметр которого, путь к файлу отчета,
+записав ниже приведенный код после создания объекта нейросети.
+<P class="kod">
+net->toLog("nero_net_log.txt");
+
+<P class="text">
+И последний штрих! Не забывайте, что после создания и использования класса NERO_NET, необходимо освобождать память
+от объекта данного класса. 
+
+<P class="text2">
+<B>Задание 7</B><BR>
+Освободите память от объекта класса NERO_NET, используя деструктор класса так, как показанно ниже:
+<P class="kod">
+//удаление нейросети<BR>
+net->~NERO_NET();
+
+<P class="text">
+Нейросеть создается, удаляется, информации о ее состоянии выводиться в файл отчета. Осталось только активизировать
+функцию NeroNet().
+
+<P class="text2">
+<B>Задание 8</B><BR>
+Для того, чтобы активизировать функцию NeroNet() разместите ее после функции регистрации окна приложения 
+(InitMainForm)  так, как показано ниже:
+<P class="kod">
+//регистрация окна<BR>
+HWND hwnd = InitMainForm(hinstance, MainWinProc, "D3D", 800, 600);<BR>
+//работа с нейросетью<BR>
+<B>NeroNet();</B><BR>
+
+<P class="text2">
+<B>Задание 9</B><BR>
+Посмотрите результаты вашей работы, нажав кнопку клавиатуры F7 или кнопку Build на главной панели инструментов. 
+
+<P class="text2">
+<B>Задание 10</B><BR>
+Найдите в папке, где располагается ваш проект, папку Debug, а там исполняемый файл и  
+запустите его. У вас должно открыться пустое окно, а в папке  Debug должен появиться файл nero_net_log.txt.
+
+<P class="text2">
+<B>Задание 11</B><BR>
+Откройте файл nero_net_log.txt и проанализируйте выведенную в лог информацию о созданной вами нейросети.
+
+<P class="text2">
+<B>Задание 12</B><BR>
+Если ваш собственный проект не работает по како-то причине, то можете скачать готовый 
+<A href="files\Create_Nero_net.zip" class="wt">здесь</A> 
+и найти 
+свою ошибку. Попробуйте ответит на вопрос: «В чем причина ошибки? И как ее избежать в следующий раз?»
+
+<P class="title2">Вопросы для  самоконтроля</P>
+<P class="text">
+1) Какую структуру имеет учебный нерон?
+<BR>2) Что такое нейронная сеть?
+<BR>3) Из каких слоев состоит нейронная сеть?
+<BR>4) Какой класс отвечает за создание нейронной сети?
+<BR>5) Каким образом можно создать нейросеть с 5 входными Неронами, 10 выходными и 20 внутренними (скрытыми)?
+<BR>6) Как посмотреть информацию о сети?
+
+</P>
+
+
+<P align="center">
+<A href="tr_neronet.htm" class="wt">далее</A>
+</P>
+
+
+<!--текст окошка к-->
+	<P align="right"><A href="#begin" class="wt">наверх</A></P><BR>
+	</TD>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/8.gif" width="5" height="44" border="0"></TD>
+</TR>
+<TR>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+	<TD width="*" height="1" bgcolor="#CFDDF2"><IMG src="image/r6.gif" width="1" height="1" border="0"></TD>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+</TR>
+</TABLE>
+</DIV>
+<P class="mini">MR, Кузнецов Алексей КТ-503, РГППУ, 2007г.</P>
+<!--содержание к-->
+		</TD>
+	</TR>
+	</TABLE>
+	<!--часть содержания к-->
+	</TD>
+</TR>
+<TR>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

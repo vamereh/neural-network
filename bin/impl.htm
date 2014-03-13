@@ -1,0 +1,563 @@
+<HTML>
+<HEAD>
+<TITLE>Внедрение нейросети</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<LINK rel="stylesheet" href="css\style.css" type="text/css">
+<SCRIPT src="script/buttonscript.js" language="JavaScript"></SCRIPT>
+</HEAD>
+<BODY>
+<A name="begin"></A>
+<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+<TR>
+	<TD colspan="2">
+	<!--часть шапка н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD rowspan="2" bgcolor="#3B3B3B">
+        	<P class="mainhead">
+<!--Основной заголовок н-->
+Программирование и внедрение нейросетей
+<!--Основной заголовок к-->
+			</P>
+		</TD>
+		<TD bgcolor="#3B3B3B" align="right" valign="top">
+		<P class="t2">
+<!--в шапке справа вверху н-->
+<A href="search.htm" class="help"><IMG src="image/search_b.gif" width="16" height="16" border="0"> Поиск&nbsp;&nbsp;</A>
+<A href="help.htm" class="help"><IMG src="image/question_b.gif" width="16" height="16" border="0"> Справка&nbsp;&nbsp;</A>
+
+<!--в шапке справа вверху к-->
+		</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD bgcolor="#3B3B3B">
+			<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+			<TR>
+				<TD width="166" height="38"><IMG src="image/1.gif" width="166" height="38" border="0"></TD>
+				<TD width="100%" height="38" background="image/2.gif"><IMG src="image/2.gif" width="1" height="38" border="0"></TD>
+				<TD width="157" height="38"><IMG src="image/3.gif" width="157" height="38" border="0"></TD>
+				<TD bgcolor="#6A6A6A">
+					<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+					<TR>
+						<TD width="100%" height="100%">
+<!--в шапке маленькая надпись с права внизу н-->
+<P class="t1">РГППУ</P>
+<!--в шапке маленькая надпись с права внизу к-->
+						<TD>
+					</TR>
+					<TR><TD width="100%" height="1" bgcolor="#3B3B3B"><IMG src="image/r1.gif" width="1" height="1" border="0"><TD></TR>
+					</TABLE>
+				</TD>
+			</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD colspan="2" bgcolor="#626262"><IMG src="image/r2.gif" width="1" height="16" border="0"></TD>
+	<TR>
+	</TABLE>
+	<!--часть шапка к-->
+	</TD>
+</TR>
+<TR>
+	<TD width="*" height="100%" bgcolor="#DFEDF6">
+	<!--часть навигация н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+
+	<TR>
+		<TD width="181" height="30"><IMG src="image/r3.gif" width="1" height="30" border="0"></TD>
+		<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+	</TR>
+<!--кнопки н-->
+<!--
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Начало</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+-->
+
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="start.htm"><NOBR>Начало</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="create_proj.htm"><NOBR>Создание окна</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="cr_neronet.htm"><NOBR>Создание нейросети</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="initd3d.htm"><NOBR>Запуск Direct3D</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="crdelmod.htm"><NOBR>Визуализация</NOBR></A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="anim.htm">Анимация</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="kamera.htm">Камера</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="bma.htm">ВМА-файл</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="frommaxtox.htm">Экспорт модели</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" background="image\b.gif" align="right" valign="middle">
+	<P class="button_on"><NOBR>Внедрение нейросети</NOBR></P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#FFFFFF"><IMG src="image/r5.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle">
+	<P class="button_on">&nbsp;</P>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="use_books.htm">Литература</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="ip.htm">Интерфейс пособия</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="metodukaz.htm">Методические указания</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR>
+	<TD width="181" height="30" align="right" valign="middle" onmouseover="bgimageon(this)" onmouseout="bgimageof(this)">
+	<A href="search.htm">Поиск по пособию</A>
+	</TD>
+	<TD width="1" height="30" bgcolor="#90B2D9"><IMG src="image/r4.gif" width="1" height="1" border="0"></TD>
+</TR>
+
+<!--кнопки к-->
+	<TR>
+		<TD width="181" height="100%"><IMG src="image/r3.gif" width="1" height="1" border="0"></TD>
+		<TD width="1" height="100%"  bgcolor="#DFEDF6" valign="top"><IMG src="image/9.gif" width="1" height="161" border="0"></TD>
+	</TR>
+	<TR>
+		<TD width="182" height="1"><IMG src="image/r3.gif" width="182" height="1" border="0"></TD>
+	</TR>
+	</TABLE>
+	<!--часть навигация к-->
+	</TD>
+	<TD width="100%" height="100%">
+	<!--часть содержания н-->
+	<TABLE cellspacing="0" cellpadding="0" border="0" width="100%" height="100%" align="center">
+	<TR>
+		<TD align="justify" valign="top">
+<!--содержание н-->
+
+
+<TABLE cellspacing="5" cellpadding="0" border="0" width="*" height="*" align="center" style="margin-top:10px;">
+	<TR>
+		<TD><A href="impl_neronet.htm" class="wt">Подготовка</A></TD>
+		<TD><A href="create_world.htm" class="wt">Создание мира</A></TD>
+		<TD><A href="impl.htm" class="wt">Внедрение нейросети</A></TD>	
+	</TR>
+</TABLE>
+
+
+
+<DIV class="layer_window">
+<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+<TR>
+	<TD width="5" height="23"><IMG src="image/5.gif" width="5" height="23" border="0"></TD>
+	<TD width="*" height="23" background="image/4.gif">
+		<TABLE cellspacing="0" cellpadding="0" border="0" width="*" height="*" align="center" >
+		<TR>
+			<TD width="100%" height="23" align="justify" valign="middle" >
+<P class="head_window">Внедрение нейросети</P>
+			</TD>
+			<TD width="63" height="23"><IMG src="image/mini_b.gif" width="63" height="23" border="0"></TD>
+		</TR>
+		</TABLE>
+	</TD>
+	<TD width="5" height="23"><IMG src="image/6.gif" width="5" height="23" border="0"></TD>
+<TR>
+<TR>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/7.gif" width="5" height="44" border="0"></TD>
+	<TD height="100%" align="justify" valign="top">
+<!--текст окошка н-->
+
+<P class="title2">3. Внедрение нейросети в моделируемую среду</P> 
+<P class="text">
+В прошлой лабораторной работе вы выяснили, что среда для человека, да и вообще для любого живого существа, 
+это набор информации, который могут воспринимать его органы чувств.<BR>
+Органы чувств можно выделить в отдельный от мозга блок. Их задача воспринять воздействие среды и трансформировать 
+это воздействие в информацию адоптированную для дальнейшей переработки. Мозг же в свою очередь получая уже адоптированную для него информацию перерабатывает 
+ее и выдает какое-либо «заключение», обычно выражающееся в поведении живого существа.<BR>
+Имея ввиду выше описанную логику моделируемую нейросеть можно представить виде схемы, изображенной на рисунке 1. 
+
+<CENTER><IMG src="image\examp\22.jpg" width="275" height="325" border="0" class="bo"></CENTER>
+<CENTER><P class="ris">Рис. 1</P></CENTER>
+
+<P class="text">
+Из рисунка 1 видно, что нейросеть внедрена в окружающую среду по средствам 2-х блоков: восприятие и действие. 
+Это некие соединительные мостики, которые могут трансформировать информацию из окружающей среды в пригодную для 
+обработки нейросетью (восприятие) и наоборот – интерпретируют ответ нейросети и формируют поведение (действие).
+
+<P class="text">
+<B>Создание восприятия</B><BR>
+Воспринимать, созданная вами нейросеть, может только 2 вида информации, как уже писалось. Первый вид есть силы 
+робо-паука, второй вид – количество других робо-пауков в определенном радиусе от данного.
+
+<P class="text2">
+<B>Задание 26</B><BR>
+Создайте функцию, в которой будет размещаться код от трех блоков рисунка 1: Восприятие, Нейросеть и 
+Действие. Код пустой функции приведен ниже:
+<P class="kod">
+void II_RUN(int n)<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;//тут будут блоки восприятие, неросеть и действие<BR>
+}
+<P class="text2">
+где n - обрабатываемый робо-паук.
+
+<P class="text2">
+<B>Задание 27</B><BR>
+Создайте глобальную переменную: 
+<P class="kod"> 
+unsigned short int hash = 0;
+
+<P class="text2">
+<B>Задание 28</B><BR>
+Внутри функции II_RUN создайте пустое условие:
+<P class="kod">
+void II_RUN(int n)<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;if (hash>=50)<BR>
+&nbsp;&nbsp;&nbsp;{<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//тут будут блоки восприятие, неросеть и действие<BR>
+&nbsp;&nbsp;&nbsp;}<BR>
+}
+
+<P class="text2">
+<B>Задание 29</B><BR>
+Создайте код вызова функции II_RUN в функции Rendering сразу же после открывающейся операторной 
+скобки цикла вызова робо-паука:
+<P class="kod">
+
+D3DDevice->Clear( 0, NULL, D3DCLEAR_TARGET|D3DCLEAR_ZBUFFER, D3DCOLOR_XRGB(200,200,200), 1.0f, 0 );<BR>
+for (int i=0; i&lt;max_pauk; i++)<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;	<FONT color="red">II_RUN(i);</FONT>//ИИ; i - номер обрабатываемого робо-паука<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;	Model3D[i].Play();<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;	D3DDevice->BeginScene();<BR>
+	<BR>
+&nbsp;&nbsp;&nbsp;	Model3D[i].Present();<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;	D3DDevice->EndScene();  <BR>     		
+}	 <BR> 
+D3DDevice->Present( NULL, NULL, 0, NULL );
+
+<P class="text">
+В вашем проекте функция Rendering вызывается каждые 24 миллисекунды. Вызывать каждый раз 
+при генерации кадра нейросеть нет необходимости (хотя это на ваше усмотрение). Поэтому, вы ввели переменную 
+hash, которая позволит регулировать частоту вызова нейросети для обработки информации.
+
+<P class="text2">
+<B>Задание 30</B><BR>
+Далее вместо комментария внутри операторных скобок пустого условия функции II_RUN запишите следующий код:
+<P class="kod">
+//Восприятие силы<BR>
+net->in_neron[0].U = strong[n];<BR>
+<BR>
+//Восприятие количества пауков<BR>
+for(unsigned short int i=0; i&lt;max_pauk; i++)<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;float d = Distance(Model3D[n].Place.x, Model3D[n].Place.y, 
+Model3D[n].Place.z, <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model3D[i].Place.x, Model3D[i].Place.y, Model3D[i].Place.z);<BR>
+&nbsp;&nbsp;&nbsp;if(d<400 && n!=i) net->in_neron[1].U++;<BR>		
+};
+
+<P class="text">
+Обсудим выше описанный код. Вначале рассчитывается восприятие «силы» паука с номером n. Этот номер передан 
+функции при вызове её в функции Rendering и означает того робо-паука, для которого в данный момент выбирается действие. 
+<P class="text">
+Далее идет расчет восприятия количества робо-пауков вокруг данного. Расстояние высчитывается с использованием 
+функции  Distance, описанной в файле function.cpp.<BR>
+Вот прототип функции Distance:
+<P class="kod">
+float Distance(float X1,float Y1,float Z1, float X2,float Y2,float Z2)
+<P class="text">
+где<BR>
+float X1,float Y1,float Z1 – координаты первой точки в пространстве,<BR>
+float X2,float Y2,float Z2 – координаты второй точки в пространстве.<BR>
+Данная функция вернет при своем вызове расстояние между этими точками.
+<P class="text">
+Поле расчета расстояние между «данным» робо-пауком (n) и «другим» (i), проверяется условие: не является ли 
+«другой» робо-паук «данным» и не превышает ли расстояние между ними 400 пикселей. Если эти условия 
+соблюдены (d<400 && n!=i), то к net->in_neron[1].U прибавляется единица.
+Весь процесс восприятия количества робо-пауков для каждого робо-паука повторяется столько раз, 
+сколько робо-пауков существует (max_pauk).
+
+<P class="text">
+<B>Создание блока нейросеть</B><BR>
+Данный блок очень мал и состоит всего лишь из одного вызова метода net->Reflection(), который генерирует 
+ответ в соответствии с заданными параметрами входных неронов.
+<P class="text2">
+<B>Задание 31</B><BR>
+Запишите ниже приведенный код после кода блока восприятия: 
+<P class="kod">
+net->Reflection();
+
+
+<P class="text">
+<B>Создание блока действие</B><BR>
+Разрабатываемый блок занимается тем, что на основе выбранного нейросетью действия формирует поведение робо-паука.<BR>
+Для начала нужно определить какой нейрон выиграл (по правилу: победитель получает все).
+<P class="text2">
+<B>Задание 32</B><BR>
+Для этого запишите ниже приведенный код после блока «нейросеть»:
+<P class="kod">
+//вычисляем выигравший нерон и результат записываем в win_i<BR>
+unsigned short int win_i = 0;<BR>
+float max = net->out_neron[0].U;<BR>
+for(i=0; i<net->out_kol; i++)<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;if (net->out_neron[i].U>max) {max=net->out_neron[i].U; win_i=i;}<BR>
+};
+
+<P class="text">
+Обсудим выше приведенный код. Вначале создается переменная (max) и ей тут же присваивается значение активации 
+первого (0) выходного нерона. Затем в цикле перебираются все значения активаций выходных неронов и сравниваются 
+со значением в переменной max. Если в переменной max значение меньше, то значение активации присваивается 
+переменной max, а переменная win_i запоминает номер данного выходного нерона. <BR>
+В результате после выполнения выше описанного цикла в переменной win_i остается значение выходного нерона с 
+максимальным значением активации. 
+
+<P class="text">
+Начнем создавать действия, которые может выполнять  робо-паук. Сеть имеет всего три выходных нерона, каждому из которых соответствует какое-либо действие: гулять, убегать или атаковать. Выбрать нейросеть может всего лишь одно высокоуровневое действие в определенный промежуток времени (за который отвечает переменная hash).
+Высокоуровневое действие гулять состоит из более мелких поддействий таких как поворачиваться и идти.
+Действие убегать, идентично выше описанному, но лишь с той разницей, что поворачиваться и идти робо-паук должен намного быстрее. Тем самым будет создаваться иллюзия, что он нервничает и пытается укрыться от опасности.
+Действие атаковать состоит из: повернуться в сторону противника (поворачиваться), подойти к нему (идти), атаковать.
+Каждому поддействию высокоуровневого действия соответсвует своя анимация, которая проигрывается во время протекания выбранного поддействия.
+
+<P class="text">
+Но замете, что поддействие «идти», впрочем, как и «поворачиваться», не так просты, как кажутся. Вы можете передвигать модель, изменяя некоторые поля класса CUNIT, но лишь по определенным координатным осям. А как передвигать модель робо-паука в соответствии с углом и скоростью? Таких проблем возникает много…
+Решить их вам поможет ранее изученная функция DoAction, которая за вас сделает все расчеты и передвинет модель или повернет, опираясь всего на два параметра: action (приказ) типа _UACTION и angle - угла поворота. Хотя на данный момент она понимает всего два приказа: U_MOVE и U_TURN.
+К примеру, DoAction(U_TURN, 60); повернет модель на 60 градусов за 60 кадров, т.е. на 1 градус за кадр. А DoAction(U_MOVE, 60); повернет мокдель на 60 градусов и будет двигать ее в этом направлении, со скоростью speed (поле speed является частью класса CUNIT и по умолчанию равно 6.0f).
+
+<P class="text">
+Зная все это можно сделать вывод, что блок, который будет заниматься интерпретацией ответа нейросети и формированием поведения, должен на входе получить номер выигравшего выходного нерона, а на выходе выдать приказ типа  _UACTION и угол поворота. Далее эти данные вы передадите в функцию DoAction, которая обработает более низкий уровень представления действия.
+
+<P class="text2">
+<B>Задание 33</B><BR>
+Создайте действия «гулять» и «убегать», записав ниже приведенный код после блока "Нейросеть":
+<P class="kod">
+//--------------------Действие гулять--------------------<BR>
+//Действие гулять выполняется в том случае, если выигрвает<BR>
+//  нерон с индексом 0 или 2<BR>
+if (win_i == 0 || win_i == 2)<BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;	int re = (int)floor(4*rand()/RAND_MAX);<BR>
+&nbsp;&nbsp;&nbsp;	//===== поворот<BR>
+&nbsp;&nbsp;&nbsp;	if (re==1) <BR>
+&nbsp;&nbsp;&nbsp;	{<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		action[n] = U_TURN;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		angle[n] = (float)floor(359*rand()/RAND_MAX);<BR>
+&nbsp;&nbsp;&nbsp;	};<BR>
+&nbsp;&nbsp;&nbsp;	//===== движение<BR>
+&nbsp;&nbsp;&nbsp;	if (re==2||re==3) <BR>
+&nbsp;&nbsp;&nbsp;	{<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		action[n] = U_MOVE;<BR>
+&nbsp;&nbsp;&nbsp;	};<BR>
+};<BR>
+
+		//--------------------Действие убегать--------------------<BR>
+		//Действие убегать выполняется в том случае, если выигрвает<BR>
+		//  нерон с индексом 1<BR>
+		if (win_i == 1 )<BR>
+		{<BR>
+&nbsp;&nbsp;&nbsp;	//===== скорость передвижения<BR>
+&nbsp;&nbsp;&nbsp;			Model3D[n].speed = 12;<BR>
+&nbsp;&nbsp;&nbsp;	//===== резкий поворот<BR>
+&nbsp;&nbsp;&nbsp;			Model3D[n].rotate = (float)floor(359*rand()/RAND_MAX);<BR>
+&nbsp;&nbsp;&nbsp;	//===== скорость анимации<BR>
+&nbsp;&nbsp;&nbsp;			Model3D[n].a_add = 0.04f;<BR>
+&nbsp;&nbsp;&nbsp;			Model3D[n].SetAnimation(Model3D[n].a_nom);<BR>
+&nbsp;&nbsp;&nbsp;	//===== движение<BR>
+&nbsp;&nbsp;&nbsp;			action[n] = U_MOVE;<BR>
+		}
+
+<P class="text">
+Вы, наверное, заметили, что действие «гулять» выполняется если выигрывают 0 или 2 нероны, с 
+которыми ассоциируется действия "гулять" и "атаковать" соответственно. Так сделано в обучающих
+ целях – чтобы не запутать читателя. Пока даже если сеть выбирает действие "атаковать" робо-пауки будут все равно "гулять". 
+
+<P class="text">
+Создавая действие убегать вы увеличивали скорость движения робо-паука, но когда то ее нужно уменьшить обратно. 
+
+<P class="text2">
+<B>Задание 34</B><BR>
+Для этого запишите ниже приведенный код в самом начале функции II_RUN:
+<P class="kod">
+if (Model3D[n].speed == 12) {Model3D[n].speed = 6;}<BR>
+if (Model3D[n].a_add == 0.04f) <BR>
+{<BR>
+&nbsp;&nbsp;&nbsp;Model3D[n].a_add = 0.02f; <BR>
+&nbsp;&nbsp;&nbsp;Model3D[n].SetAnimation(Model3D[n].a_nom); <BR>
+}
+
+<P class="text">
+Как в этом листинге с кодом, так и в  предыдущем при смене скорости анимации модели использовался 
+метод SetAnimation. Это вызвано тем, что если продолжить начатую анимацию с более низкой скоростью или 
+с более высокой может произойти превышение возможно допустимого значения поля a_position класса CUNIT, в  
+результате чего возникнет ошибка.
+
+<P class="text2">
+<B>Задание 35</B><BR>
+Перейдите в функцию Rendering и после вызова функции II_RUN, впишите код смены номера проигрываемой анимации в зависимости от приказа сгенерированным блоком «Действие»:
+<P class="kod">
+//по команде выбираем анимацию<BR>
+if((action[i]==U_MOVE || action[i] == U_TURN) && Model3D[i].a_nom!=0) Model3D[i].SetAnimation(0);<BR>
+if(action[i]==U_STOP && Model3D[i].a_nom!=1) Model3D[i].SetAnimation(1);
+
+<P class="text2">
+<B>Задание 36</B><BR>
+Впишите после выше приведенного кода вызов функции DoAction:
+<P class="kod">
+//выполняем сложное высокоуровневое действие<BR>
+Model3D[i].DoAction(action[i], angle[i]);
+
+<P class="text">
+Сейчас осталось всего несколько штрихов и можно уже будет посмотреть на результат вашей работы!
+
+<P class="text2">
+<B>Задание 36</B><BR>
+Запишите условие по работе с переменной hash сразу же после вызова метода D3DDevice->Present( NULL, NULL, 0, NULL ). 
+Данное условие означает, что при генерации каждого нового кадра к значению переменной hash прибавляется единица, а по 
+достижению значения равного или большего 50 переменная обнуляется.
+<P class="kod">
+if (hash>=50) {hash=0;} else {hash++;}
+
+<P class="text2">
+<B>Задание 37</B><BR>
+Хочу обратить ваше внимание еще на одну тонкую особенность. При движении робо-пауков нет никаких препятсвий, 
+и если они «захотят» то могут уйти очень далеко. Поэтому нужно ограничить область их обитания. Это делается 
+так: в конце функции II_RUN вписывается следующий набор условий:
+<P class="kod">
+//зона за которую пауки не могут выйдти<BR>
+int zona = 1000;<BR>
+if (Model3D[n].Place.x >= zona) {action[n] = U_STOP; Model3D[n].Place.x-=15;}<BR>
+if (Model3D[n].Place.y >= zona) {action[n] = U_STOP; Model3D[n].Place.y-=15;}<BR>
+if (Model3D[n].Place.x <= -1*zona) {action[n] = U_STOP; Model3D[n].Place.x+=15;}<BR>
+if (Model3D[n].Place.y <= -1*zona) {action[n] = U_STOP; Model3D[n].Place.y+=15;}
+
+<P class="text2">
+<B>Задание 38</B><BR>
+И последний третий штрих. Запишите в функции InitObjects, функцию для более качественного 
+псевдослучайного выбора чисел:
+<P class="kod">
+srand(time(NULL));rand();
+
+<P class="text2">
+<B>Задание 39</B><BR>
+Сохраните и откомпилируйте свой проект. Запустите исполняемый файл. 
+На экране должны передвигаться робо-пауки. При сближении они начинают суетиться и разбегаются. 
+<P class="text2">
+
+<P class="text2">
+<B>Задание 40</B><BR>
+Если ваш проект не работает, то можете взять готовый 
+<A href="files/vnedrenie.zip" class="wt">тут</A> 
+и найти свои ошибки.
+
+<P class="text2">
+<B>Задание 41</B><BR>
+Создайте действие «Атаковать». Действие «Атаковать» состоит из следующих поддействий: 
+повернуться в сторону противника, подойти к нему, выполнить удар.
+Повернуть модель в определенную сторону вам поможет функция LookTo описанная в файле Function.cpp.
+
+<P class="text2">
+<B>Задание 42</B><BR>
+Сохраните получившийся результат и проверте все ли работает так, как вы задумали. 
+
+<P class="title2">Вопросы для  самоконтроля</P>
+<P class="text">
+1) Из каких блоков состоит внедренная нейросеть? Опишите их предназначение.
+<BR>2) Можно ли информацию об окружающей среде передавать в нейростеть «как есть» - без обработки?
+<BR>3) Как вычислить расстояние между двумя точками в пространстве?
+<BR>4) Зачем нужна функция DoAction?
+<BR>5) На какие поддействия делиться действие «гулять»? А «убегать»? «Атаковать»? «Искать»? «Питаться»?
+
+<P class="text">
+На этом данное электронное учебное пособие подошло к концу. 
+Надеюсь изучаемые темы вас заинтересовали, а обучаться было легко и весело. Успеха вам.
+
+
+
+
+<P align="center">
+<A href="create_world.htm" class="wt">назад</A>
+</P>
+
+<!--текст окошка к-->
+	<P align="right"><A href="#begin" class="wt">наверх</A></P><BR>
+	</TD>
+	<TD width="5" height="44" valign="bottom"><IMG src="image/8.gif" width="5" height="44" border="0"></TD>
+</TR>
+<TR>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+	<TD width="*" height="1" bgcolor="#CFDDF2"><IMG src="image/r6.gif" width="1" height="1" border="0"></TD>
+	<TD width="5" height="1"><IMG src="image/r5.gif" width="5" height="1" border="0"></TD>
+</TR>
+</TABLE>
+</DIV>
+<P class="mini">MR, Кузнецов Алексей КТ-503, РГППУ, 2007г.</P>
+<!--содержание к-->
+		</TD>
+	</TR>
+	</TABLE>
+	<!--часть содержания к-->
+	</TD>
+</TR>
+<TR>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
